@@ -63,7 +63,7 @@ markupsafe==2.1.2
     #   werkzeug
 matplotlib==3.7.1
     # via mlflow
-mlflow==2.3.1
+mlflow==2.3.2
     # via -r requirements.in
 mypy-extensions==1.0.0
     # via black
