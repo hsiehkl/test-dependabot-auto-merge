@@ -1,6 +1,6 @@
 alembic==1.10.2
     # via mlflow
-black==22.3.0
+black==23.7.0
     # via -r requirements.in
 blinker==1.6.2
     # via flask
@@ -79,8 +79,9 @@ numpy==1.24.3
     #   scipy
 oauthlib==3.2.2
     # via databricks-cli
-packaging==21.3
+packaging==23.1
     # via
+    #   black
     #   docker
     #   matplotlib
     #   mlflow
@@ -101,9 +102,7 @@ pyarrow==10.0.1
 pyjwt==2.6.0
     # via databricks-cli
 pyparsing==3.0.9
-    # via
-    #   matplotlib
-    #   packaging
+    # via matplotlib
 python-dateutil==2.8.2
     # via
     #   matplotlib
